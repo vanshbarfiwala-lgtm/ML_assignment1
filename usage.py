@@ -10,8 +10,8 @@ You will be expected to use this to make trees for:
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-from base import DecisionTree
-from metrics import *
+from tree.base import DecisionTree
+from tree.metrics import *
 
 np.random.seed(42)
 # Test case 1
